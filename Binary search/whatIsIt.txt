@@ -1,0 +1,21 @@
+What is binary search ?
+
+
+- Divide and conquer algo : search in an ordered list fast than just scanning every single element
+
+Divide and conquer :
+-> Look for a certain element in a list.
+-> We start at the middle, is the looked-for element it? If not, Is the looked-for element smaller or greater ?
+-> We can disregard the right part of the list if it is the list. We can reiterate until we found the element.
+
+Binary search is faster than naive search
+
+
+
+In summary:
+
+For a single search or smaller datasets, linear search on an unsorted list might be faster
+due to its linear time complexity O(n).
+For larger datasets or scenarios where multiple searches are performed on the same data,
+sorting the list (O(nlogn)) and then using binary search (O(logn)) would be more efficient
+due to the faster search time for subsequent searches.
