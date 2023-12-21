@@ -1,1 +1,1 @@
-Python Projects from Kylie Ying
+Small Python projects, from Kylie Ying
